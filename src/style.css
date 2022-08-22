@@ -1,0 +1,124 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+body{
+    /* width: 100vw; */
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: white; 
+    width: 100vw;
+    border: 2px solid gray;
+}
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: aliceblue;
+}
+footer{
+    background-color: black;
+    height: 500px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 530px;
+    list-style-type: none;
+    font-size: 23px;
+}
+li{
+    text-decoration: none;
+}
+h1{
+    font-size: 45px;
+    margin: 0px;
+}
+div p{
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0px;
+}
+.hero-area{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    /* text-align: ce; */
+    align-items: center;
+
+}
+.hero-text{
+    margin-left: 40px;
+}
+
+.buttton{
+    height: 38px;
+    width: 120px;
+    font-size: 20px;
+    background-color: coral;
+    border-radius: 9px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background-color: #ef744b;
+}
+.buttton:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+.social{
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.logoimage{
+    height: 35px;
+    margin: 28px;
+}
+.sub-section{
+    height: 50vh; 
+    padding: 40px;
+    
+}
+.information{
+    /* padding: 20px; */
+    text-align: left;
+}
+
+h2{
+    font-size: 30px;
+}
+.headShot{
+    text-align: right;
+}
+
+@media (max-width: 1000px){
+    .information{
+        /* text-align: center; */
+        padding: 10px;
+        padding-right: 20px;
+    }
+    .headShot{
+        text-align: center;
+        padding: 10px;
+    }
+}
+@media (min-width: 1000px){
+    .headShot{
+        /* text-align: center; */
+    }
+}
+/* @media (max-with: 500px){
+    .sub-section{
+        height: 60px; 
+    }
+} */
