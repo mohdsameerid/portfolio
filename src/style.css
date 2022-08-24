@@ -158,3 +158,19 @@ a {
     padding: 50px;
     height: 30vh;
 }
+
+
+/* media query for mobile responsive */
+@media (max-width: 600px){
+    .sub-section{
+        /* text-align: center; */
+        display: grid;
+        padding: 10px;
+    }
+    .information{
+        margin-right: 30px;
+    }
+    .headshot-container{
+        margin-left: 25px;
+    }
+}
