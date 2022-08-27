@@ -190,7 +190,7 @@ a {
 
 
  /* added Humburger menu */
- 
+
 /* 
 * {
     box-sizing: border-box;
@@ -208,7 +208,7 @@ body {
     align-items: center;
     background-color: #1c1d25;
     color: white;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .brand-title {
