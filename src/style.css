@@ -1,50 +1,61 @@
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
     margin: 0px;
 }
-body{
+
+body {
     /* width: 100vw; */
     font-family: 'Poppins', sans-serif;
 }
-section{
-    background-color: white; 
+
+section {
+    background-color: white;
     width: 100vw;
     /* border: 2px solid gray; */
 }
-.hero{
+
+.hero {
     background-color: #1c1d25;
     height: 100vh;
     color: aliceblue;
 }
-footer{
+
+footer {
     background-color: black;
     height: 500px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-evenly;
     width: 530px;
     list-style-type: none;
     font-size: 23px;
 }
-li{
+
+li {
     text-decoration: none;
 }
-h1{
+
+h1 {
     font-size: 45px;
     margin: 0px;
 }
-div p{
-    font-size: 22px;
-    font-weight: 300;
+
+div p {
+    font-size: 16px;
+    font-weight: 100;
     margin: 0px;
 }
-.hero-area{
+
+.hero-area {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -53,23 +64,27 @@ div p{
     align-items: center;
 
 }
-.hero-text{
+
+.hero-text {
     margin-left: 40px;
 }
-@media (max-width: 580px){
-    .hero-text{
+
+@media (max-width: 580px) {
+    .hero-text {
         margin-left: 28px;
         margin-bottom: 40px;
     }
-    .hero-text h1{
+
+    .hero-text h1 {
         font-size: 30px;
     }
-    .hero-text p{
+
+    .hero-text p {
         font-size: 16px;
     }
 }
 
-.buttton{
+.buttton {
     height: 38px;
     width: 120px;
     font-size: 20px;
@@ -80,29 +95,33 @@ div p{
     margin-top: 10px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #ef744b;
 }
-.buttton:active{
+
+.buttton:active {
     background-color: #A9A9A9;
     color: #808080;
 }
-.social{
+
+.social {
     margin-right: 30px;
     padding-bottom: 50px;
 }
 
-.logoimage{
+.logoimage {
     height: 35px;
     margin: 28px;
 }
+
 .sub-section {
     display: flex;
     justify-content: space-around;
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.information{
+
+.information {
     padding: 20px;
     padding-left: 50px;
 }
@@ -115,27 +134,30 @@ div p{
     padding-right: 70px;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-.sub-section-alternative{
+.sub-section-alternative {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 50px;
     /* margin-right: 200px; */
 }
-.project-container{
+
+.project-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.project-card{
+.project-card {
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
+    padding: 0px 22px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -155,10 +177,12 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .project-link {
     text-decoration: none;
     color: #ef744b;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -173,23 +197,25 @@ a {
 
 
 /* media query for mobile responsive */
-@media (max-width: 600px){
-    .sub-section{
+@media (max-width: 600px) {
+    .sub-section {
         /* text-align: center; */
         display: grid;
         padding: 10px;
     }
-    .information{
+
+    .information {
         margin-right: 30px;
     }
-    .headshot-container{
+
+    .headshot-container {
         margin-left: 35px;
     }
 }
 
 
 
- /* added Humburger menu */
+/* added Humburger menu */
 
 /* 
 * {
