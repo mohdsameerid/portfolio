@@ -150,6 +150,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    row-gap: 15px;
 }
 
 .project-card {
@@ -159,6 +160,13 @@ h2 {
     margin: 10px;
     /* padding: 0px 22px; */
     border-radius: 20px 20px 20px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
 }
 
 @media only screen and (max-width: 1000px) {
