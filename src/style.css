@@ -17,13 +17,13 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #bcc8fe;
     height: 100vh;
     color: aliceblue;
 }
 
 footer {
-    background-color: black;
+    background-color: #184e78;
     height: 500px;
 }
 
@@ -50,9 +50,16 @@ h1 {
 }
 
 div p {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+div .sub-text {
     font-size: 16px;
     font-weight: 100;
     margin: 0px;
+    color: #7274ca;
 }
 
 .hero-area {
@@ -88,7 +95,7 @@ div p {
     height: 38px;
     width: 120px;
     font-size: 20px;
-    background-color: coral;
+    background-color: #7274ca;
     border-radius: 9px;
     text-align: center;
     padding-top: 7px;
@@ -96,12 +103,12 @@ div p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: #47488c;
 }
 
 .buttton:active {
-    background-color: #A9A9A9;
-    color: #808080;
+    background-color: #47488c;
+    color: #b9b9b9;
 }
 
 .social {
@@ -142,7 +149,8 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     /* margin-right: 200px; */
 }
 
@@ -222,7 +230,6 @@ h2 {
 }
 
 .project-link {
-    color: #2563eb;
     text-decoration: none;
     font-weight: 500;
 }
@@ -258,7 +265,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #ef744b;
+    color: #47488c;
 }
 
 a {
@@ -310,9 +317,13 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #1c1d25;
+    background-color: #bcc8fe;
     color: white;
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: -webkit-fill-available;
+    z-index: 99;
 }
 
 .brand-title {
@@ -342,7 +353,8 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: #a6b4f4;
+    border-radius: 10px;
 }
 
 .toggle-button {
@@ -405,8 +417,8 @@ body {
 .sub-section-skills {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     flex-direction: column;
 }
 
