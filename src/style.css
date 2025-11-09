@@ -258,8 +258,11 @@ body {
     border-radius: 50%;
     right: -120px;
     top: 20%;
-    background: radial-gradient(circle at 30% 30%, rgba(42, 134, 242, 0.14), rgba(42, 134, 242, 0.06) 30%, transparent 50%);
-    filter: blur(20px);
+    background: radial-gradient(circle at 30% 30%,
+            rgba(42, 134, 242, 0.25),
+            rgba(25, 90, 200, 0.15) 35%,
+            transparent 60%);
+    filter: blur(25px);
     transform: translateY(-10%);
     animation: glowFloat 8s ease-in-out infinite;
     z-index: 1;
@@ -598,9 +601,9 @@ body {
         font-size: 0.95rem;
     }
 
-    .glow-bg {
+    /* .glow-bg {
         display: none;
-    }
+    } */
 
     .navbar {
         padding: 0 14px;
