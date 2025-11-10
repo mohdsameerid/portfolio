@@ -708,16 +708,16 @@ body {
 }
 
 .skills-section {
-    padding: 80px 20px;
+    padding: 48px 20px;
     background: #f0f8ff;
     /* light trustful blue background */
     text-align: center;
 }
 
 .skills-section h2 {
-    font-size: 2.5rem;
     margin-bottom: 40px;
-    color: #2a86f2;
+    color: var(--blue-600);
+    font-size: 1.6rem;
 }
 
 .skills-grid {
