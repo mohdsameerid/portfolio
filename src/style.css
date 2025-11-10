@@ -706,3 +706,40 @@ body {
     right: 8px;
     gap: 6px;
 }
+
+.skills-section {
+    padding: 80px 20px;
+    background: #f0f8ff;
+    /* light trustful blue background */
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #2a86f2;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    background: #ffffff;
+    color: #2a86f2;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 6px 15px rgba(42, 134, 242, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: default;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(42, 134, 242, 0.35);
+}
